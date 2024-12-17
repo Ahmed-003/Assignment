@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    /* font-family: sans-serif; */
+}
+
+
+.hed{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.hed a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.hed a button{
+    background-color: #3080f0;
+    padding: 8px 14px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 14;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+section .main{
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+}
+
+section .main .buttons{
+    margin-top: 20px;
+}
+
+section .main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+section .main .buttons button:hover{
+    background-color: lightcyan;
+    transition: 0.3s ease-in-out;
+}
+
+section .main .languages{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+section .main .languages li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+section .main .languages li a{
+    text-decoration: none;
+}
+
+
+
+
+footer{
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+     position: absolute; 
+     left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer p{
+    padding: 10px;
+    padding-left: 29px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+}
+
+.Fut{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Fut div a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.first{
+    background-color: #dadce0 ;
+    padding: 10px;
+}
+
+.first .dot{
+    height: 25px;
+    width: 25px;
+    background-color: #fe4646;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+.first .dot1{
+    height: 25px;
+    width: 25px;
+    background-color: #9abb38;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.first .dot2{
+    height: 25px;
+    width: 25px;
+    background-color: #fdbb57;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.sec{
+    margin-left: 15px;
+    display: flex;
+}
+
+.bodypage{
+    margin: 0;
+    transition: 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec {
+      flex-wrap: wrap;
+    }
+
+    .for{
+        width: 30rem;
+      }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .sec {
+      flex-wrap: wrap;
+    }
+
+ 
+  }
+
+  .for{
+    width: 61rem;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .for{
+        width: 30rem;
+      }
+ 
+  }
+
+  @media only screen and (max-width: 600px) {
+    .for{
+        width: 30rem;
+      }
+ 
+  }
+
+
