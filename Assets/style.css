@@ -195,9 +195,6 @@ footer p{
       flex-wrap: wrap;
     }
 
-    .for{
-        width: 30rem;
-      }
   }
 
   @media only screen and (max-width: 1200px) {
@@ -221,7 +218,7 @@ footer p{
 
   @media only screen and (max-width: 600px) {
     .for{
-        width: 30rem;
+        width: 21rem;
       }
  
   }
